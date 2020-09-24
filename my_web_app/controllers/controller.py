@@ -2,8 +2,8 @@ from app import app
 
 @app.route('/')
 def index():
-    return "Something DEAD cool"
+    return "Something DEAD cool."
 
-@app.route('/<name>') # ADDED
-def greet(name): # ADDED
-    return f"Hello {name}!"  # ADDED
+@app.route('/<name>')
+def greet(name):
+    return f"Hello {name}!"
