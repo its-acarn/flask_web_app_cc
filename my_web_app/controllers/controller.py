@@ -8,6 +8,6 @@ def blablabla():
 def greet(name):
     return f"Hello {name}!"
 
-@app.route('/h/a')
-def yp():
-    return "Hello james!"
+@app.route('/hello/james')
+def any_function_name():
+    return "Hello James!"
